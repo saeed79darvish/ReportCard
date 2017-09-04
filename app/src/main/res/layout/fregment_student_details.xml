@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="3dp"
+                android:background="#f5c505">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Id"
+                android:textSize="20sp"
+                android:textColor="#030000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_student_id"
+                android:textSize="20sp"
+                android:textColor="#030000"
+                android:layout_marginLeft="240dp"
+                />
+             </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:background="#cd04ec">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="20sp"
+            android:textColor="#030000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_student_name"
+            android:textSize="20sp"
+            android:textColor="#030000"
+            android:layout_marginLeft="220dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:background="#32cc07">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score"
+            android:textSize="20sp"
+            android:textColor="#030000"
+
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_student_score"
+            android:textSize="20sp"
+            android:textColor="#030000"
+            android:layout_marginLeft="250dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
